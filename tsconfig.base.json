@@ -1,0 +1,501 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@crema/actions": ["libs/types/src/actions/index.ts"],
+      "@crema/actions/*": ["libs/types/src/actions/*"],
+      "@crema/components": ["libs/components/src/index.tsx"],
+      "@crema/components/AppAnimate": [
+        "libs/components/src/lib/AppAnimate/index.tsx"
+      ],
+      "@crema/components/AppAnimateGroup": [
+        "libs/components/src/lib/AppAnimateGroup/index.tsx"
+      ],
+      "@crema/components/AppAsyncComponent": [
+        "libs/components/src/lib/AppAsyncComponent/index.tsx"
+      ],
+      "@crema/components/AsyncLoaderComponent": [
+        "libs/components/src/lib/AppAsyncComponent/AsyncLoaderComponent.tsx"
+      ],
+      "@crema/components/AppAutoComplete": [
+        "libs/components/src/lib/AppFormComponents/AppAutoComplete/index.tsx"
+      ],
+      "@crema/components/AppAutocompleteField": [
+        "libs/components/src/lib/AppFormComponents/AppAutocompleteField.tsx"
+      ],
+      "@crema/components/AppBadge": [
+        "libs/components/src/lib/AppBadge/index.tsx"
+      ],
+      "@crema/components/AppCard": [
+        "libs/components/src/lib/AppCard/index.tsx"
+      ],
+      "@crema/components/AppCardMedia": [
+        "libs/components/src/lib/AppCard/AppCardMedia.tsx"
+      ],
+      "@crema/components/AppCircularProgress": [
+        "libs/components/src/lib/AppCircularProgress/index.tsx"
+      ],
+      "@crema/components/AppComponentCard": [
+        "libs/components/src/lib/AppComponentCard/index.tsx"
+      ],
+      "@crema/components/AppComponentHeader": [
+        "libs/components/src/lib/AppComponentHeader/index.tsx"
+      ],
+      "@crema/components/AppConfirmDialog": [
+        "libs/components/src/lib/AppConfirmDialog/index.tsx"
+      ],
+      "@crema/components/AppContentView": [
+        "libs/components/src/lib/AppContentView/index.tsx"
+      ],
+      "@crema/components/AppDateFiled": [
+        "libs/components/src/lib/AppFormComponents/AppDateFiled.tsx"
+      ],
+      "@crema/components/AppDialog": [
+        "libs/components/src/lib/AppDialog/index.tsx"
+      ],
+      "@crema/components/AppEmptyResult": [
+        "libs/components/src/lib/AppEmptyResult/index.tsx"
+      ],
+      "@crema/components/AppErrorBoundary": [
+        "libs/components/src/lib/AppErrorBoundary/index.tsx"
+      ],
+      "@crema/components/AppGrid": [
+        "libs/components/src/lib/AppGrid/index.tsx"
+      ],
+      "@crema/components/AppGridContainer": [
+        "libs/components/src/lib/AppGridContainer/index.tsx"
+      ],
+      "@crema/components/AppImage": [
+        "libs/components/src/lib/AppImage/index.tsx"
+      ],
+      "@crema/components/AppInfoView": [
+        "libs/components/src/lib/AppInfoView/index.tsx"
+      ],
+      "@crema/components/AppLayout": [
+        "libs/components/src/lib/AppLayout/index.tsx"
+      ],
+      "@crema/components/AppLinearProgress": [
+        "libs/components/src/lib/AppLinearProgress/index.tsx"
+      ],
+      "@crema/components/AppList": [
+        "libs/components/src/lib/AppList/index.tsx"
+      ],
+      "@crema/components/AppList/ListEmptyResult": [
+        "libs/components/src/lib/AppList/ListEmptyResult.tsx"
+      ],
+      "@crema/components/AppList/ListFooter": [
+        "libs/components/src/lib/AppList/ListFooter.tsx"
+      ],
+      "@crema/components/AppLngSwitcher": [
+        "libs/components/src/lib/AppLngSwitcher/index.tsx"
+      ],
+      "@crema/components/AppLoader": [
+        "libs/components/src/lib/AppLoader/index.tsx"
+      ],
+      "@crema/components/AppLogo": [
+        "libs/components/src/lib/AppLayout/components/AppLogo/index.tsx"
+      ],
+      "@crema/components/AppMediaViewer": [
+        "libs/components/src/lib/AppMediaViewer/index.tsx"
+      ],
+      "@crema/components/AppMenu": [
+        "libs/components/src/lib/AppMenu/index.tsx"
+      ],
+      "@crema/components/AppMessageView": [
+        "libs/components/src/lib/AppMessageView/index.tsx"
+      ],
+      "@crema/components/AppMessages": [
+        "libs/components/src/lib/AppMessages/index.tsx"
+      ],
+      "@crema/components/AppMessages/MessageItem": [
+        "libs/components/src/lib/AppMessages/MessageItem.tsx"
+      ],
+      "@crema/components/AppNavLink": [
+        "libs/components/src/lib/AppNavLink/index.tsx"
+      ],
+      "@crema/components/AppNotifications": [
+        "libs/components/src/lib/AppNotifications/index.tsx"
+      ],
+      "@crema/components/AppNotifications/NotificationItem": [
+        "libs/components/src/lib/AppNotifications/NotificationItem.tsx"
+      ],
+      "@crema/components/AppPageMeta": [
+        "libs/components/src/lib/AppPageMeta/index.tsx"
+      ],
+      "@crema/components/AppScrollbar": [
+        "libs/components/src/lib/AppScrollbar/index.tsx"
+      ],
+      "@crema/components/AppSearchBar": [
+        "libs/components/src/lib/AppSearchBar/index.tsx"
+      ],
+      "@crema/components/AppSelect": [
+        "libs/components/src/lib/AppSelect/index.tsx"
+      ],
+      "@crema/components/AppSelectField": [
+        "libs/components/src/lib/AppFormComponents/AppSelectField.tsx"
+      ],
+      "@crema/components/AppSelectedIcon": [
+        "libs/components/src/lib/AppSelectedIcon/index.tsx"
+      ],
+      "@crema/components/AppSemiCircleProgress": [
+        "libs/components/src/lib/AppSemiCircleProgress/index.tsx"
+      ],
+      "@crema/components/AppSuspense": [
+        "libs/components/src/lib/AppSuspense/index.tsx"
+      ],
+      "@crema/components/AppTableContainer": [
+        "libs/components/src/lib/AppTableContainer/index.tsx"
+      ],
+      "@crema/components/AppTextField": [
+        "libs/components/src/lib/AppFormComponents/AppTextField.tsx"
+      ],
+      "@crema/components/AppThemeSetting": [
+        "libs/components/src/lib/AppThemeSetting/index.tsx"
+      ],
+      "@crema/components/AppTooltip": [
+        "libs/components/src/lib/AppTooltip/index.tsx"
+      ],
+      "@crema/components/AppsContainer": [
+        "libs/components/src/lib/AppsContainer/index.tsx"
+      ],
+      "@crema/components/AppsContent": [
+        "libs/components/src/lib/AppsContainer/AppsContent/index.tsx"
+      ],
+      "@crema/components/AppsDeleteIcon": [
+        "libs/components/src/lib/AppsDeleteIcon/index.tsx"
+      ],
+      "@crema/components/AppsFooter": [
+        "libs/components/src/lib/AppsContainer/AppsFooter.tsx"
+      ],
+      "@crema/components/AppsHeader": [
+        "libs/components/src/lib/AppsContainer/AppsHeader.tsx"
+      ],
+      "@crema/components/AppsPagination": [
+        "libs/components/src/lib/AppsPagination/index.tsx"
+      ],
+      "@crema/components/AppsSideBarFolderItem": [
+        "libs/components/src/lib/AppsSideBarFolderItem/index.tsx"
+      ],
+      "@crema/components/AppsStarredIcon": [
+        "libs/components/src/lib/AppsStarredIcon/index.tsx"
+      ],
+      "@crema/components/AuthRoutes": [
+        "libs/components/src/lib/AuthRoutes.tsx"
+      ],
+      "@crema/components/ChartTooltip": [
+        "libs/components/src/lib/ChartTooltip/index.tsx"
+      ],
+      "@crema/components/ChatListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/ChatListSkeleton.tsx"
+      ],
+      "@crema/components/ContactListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/ContactListSkeleton.tsx"
+      ],
+      "@crema/components/EmailListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/EmailListSkeleton.tsx"
+      ],
+      "@crema/components/FeedPlaceholder": [
+        "libs/components/src/lib/AppSkeleton/FeedPlaceholder.tsx"
+      ],
+      "@crema/components/MailDetailSkeleton": [
+        "libs/components/src/lib/AppSkeleton/MailDetailSkeleton.tsx"
+      ],
+      "@crema/components/SidebarListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/SidebarListSkeleton.tsx"
+      ],
+      "@crema/components/TableHeader": [
+        "libs/components/src/lib/AppTable/TableHeader.tsx"
+      ],
+      "@crema/components/TodoListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/TodoListSkeleton.tsx"
+      ],
+      "@crema/constants": ["libs/constants/src/index.ts"],
+      "@crema/constants/ActionTypes": ["libs/constants/src/ActionTypes.ts"],
+      "@crema/constants/AppConst": ["libs/constants/src/AppConst.ts"],
+      "@crema/constants/AppEnums": ["libs/constants/src/AppEnums.ts"],
+      "@crema/constants/ColorSets": ["libs/constants/src/ColorSets.ts"],
+      "@crema/constants/db/navigationStyle": [
+        "libs/mockapi/src/fakedb/navigationStyle.tsx"
+      ],
+      "@crema/constants/defaultConfig": ["libs/constants/src/defaultConfig.ts"],
+      "@crema/context": ["libs/context/src/index.ts"],
+      "@crema/context/AppContextProvider": [
+        "libs/context/src/AppContextProvider/index.tsx"
+      ],
+      "@crema/context/AppLocaleProvider": [
+        "libs/context/src/AppLocaleProvider/index.tsx"
+      ],
+      "@crema/context/AppStyleProvider": [
+        "libs/context/src/AppStyleProvider/index.tsx"
+      ],
+      "@crema/context/AppThemeProvider": [
+        "libs/context/src/AppThemeProvider/index.tsx"
+      ],
+      "@crema/context/InfoViewContextProvider": [
+        "libs/context/src/AppContextProvider/InfoViewContextProvider.tsx"
+      ],
+      "@crema/context/LayoutContextProvider": [
+        "libs/context/src/AppContextProvider/LayoutContextProvider.tsx"
+      ],
+      "@crema/context/LocaleContextProvider": [
+        "libs/context/src/AppContextProvider/LocaleContextProvider.tsx"
+      ],
+      "@crema/context/SidebarContextProvider": [
+        "libs/context/src/AppContextProvider/SidebarContextProvider.tsx"
+      ],
+      "@crema/context/ThemeContextProvider": [
+        "libs/context/src/AppContextProvider/ThemeContextProvider.tsx"
+      ],
+      "@crema/db/dashboard": ["libs/mockapi/src/fakedb/dashboard/*"],
+      "@crema/fakedb/chat/connectionList": [
+        "libs/mockapi/src/fakedb/apps/chat/connectionList.ts"
+      ],
+      "@crema/fakedb/dashboard/*": ["libs/mockapi/src/fakedb/dashboard/*"],
+      "@crema/fakedb/data": ["libs/mockapi/src/fakedb/index.ts"],
+      "@crema/fakedb/ecommerceData": [
+        "libs/mockapi/src/fakedb/ecommerce/index.tsx"
+      ],
+      "@crema/fakedb/extraPages": [
+        "libs/mockapi/src/fakedb/extraPages/index.tsx"
+      ],
+      "@crema/fakedb/mail/folderList": [
+        "libs/mockapi/src/fakedb/apps/mail/folderList.tsx"
+      ],
+      "@crema/fakedb/navigationStyle": [
+        "libs/mockapi/src/fakedb/navigationStyle.ts"
+      ],
+      "@crema/helpers": ["libs/helpers/src/index.ts"],
+      "@crema/helpers/IntlMessages": ["libs/helpers/src/IntlMessages.tsx"],
+      "@crema/helpers/RouteGenerator": ["libs/helpers/src/RouteGenerator.tsx"],
+      "@crema/hooks": ["libs/hooks/src/index.tsx"],
+      "@crema/hooks/APIHooks": ["libs/hooks/src/APIHooks.tsx"],
+      "@crema/hooks/AuthHelper": ["libs/helpers/src/AuthHelper.ts"],
+      "@crema/hooks/AuthHooks": ["libs/hooks/src/AuthHooks.ts"],
+      "@crema/mockapi": ["libs/mockapi/src/index.ts"],
+      "@crema/models/*": ["libs/types/src/models/*"],
+      "@crema/modules": ["libs/modules/src/index.ts"],
+
+      "@crema/modules/auth/*": ["libs/modules/src/lib/auth/*"],
+      "@crema/modules/ErrorPages/ComingSoon": [
+        "libs/modules/src/lib/errorPages/ComingSoon/index.tsx"
+      ],
+      "@crema/modules/ErrorPages/Error401": [
+        "libs/modules/src/lib/errorPages/Error401/index.tsx"
+      ],
+      "@crema/modules/ErrorPages/Error403": [
+        "libs/modules/src/lib/errorPages/Error403/index.tsx"
+      ],
+      "@crema/modules/ErrorPages/Error404": [
+        "libs/modules/src/lib/errorPages/Error404/index.tsx"
+      ],
+      "@crema/modules/ErrorPages/Error500": [
+        "libs/modules/src/lib/errorPages/Error500/index.tsx"
+      ],
+      "@crema/modules/ErrorPages/Error503": [
+        "libs/modules/src/lib/errorPages/Error503/index.tsx"
+      ],
+      "@crema/modules/ErrorPages/Maintenance": [
+        "libs/modules/src/lib/errorPages/Maintenance/index.tsx"
+      ],
+      "@crema/modules/MyProfile": [
+        "libs/modules/src/lib/account/MyProfile/index.tsx"
+      ],
+      "@crema/modules/apps/Calendar": [
+        "libs/modules/src/lib/apps/Calendar/index.tsx"
+      ],
+      "@crema/modules/apps/Chat": ["libs/modules/src/lib/apps/Chat/index.tsx"],
+      "@crema/modules/apps/Contact": [
+        "libs/modules/src/lib/apps/Contact/index.tsx"
+      ],
+      "@crema/modules/apps/Mail": ["libs/modules/src/lib/apps/Mail/index.tsx"],
+      "@crema/modules/apps/ScrumBoard": [
+        "libs/modules/src/lib/apps/ScrumBoard/index.tsx"
+      ],
+      "@crema/modules/apps/ScrumBoard/Detail": [
+        "libs/modules/src/lib/apps/ScrumBoard/BoardDetail/index.tsx"
+      ],
+      "@crema/modules/apps/ToDo": ["libs/modules/src/lib/apps/ToDo/index.tsx"],
+      "@crema/modules/apps/Wall": ["libs/modules/src/lib/apps/Wall/index.tsx"],
+      "@crema/modules/auth/ForgetPassword": [
+        "libs/modules/src/lib/auth/ForgetPassword/index.tsx"
+      ],
+      "@crema/modules/auth/SignIn": [
+        "libs/modules/src/lib/auth/Signin/index.tsx"
+      ],
+      "@crema/modules/auth/SignUp": [
+        "libs/modules/src/lib/auth/Signup/index.tsx"
+      ],
+      "@crema/modules/components/dataDisplay": [
+        "libs/modules/src/lib/muiComponents/dataDisplay/index.tsx"
+      ],
+      "@crema/modules/components/datagrid": [
+        "libs/modules/src/lib/muiComponents/datagrid/index.tsx"
+      ],
+      "@crema/modules/components/feedBack": [
+        "libs/modules/src/lib/muiComponents/feedback/index.tsx"
+      ],
+      "@crema/modules/components/inputs": [
+        "libs/modules/src/lib/muiComponents/inputs/index.tsx"
+      ],
+      "@crema/modules/components/lab": [
+        "libs/modules/src/lib/muiComponents/lab/index.tsx"
+      ],
+      "@crema/modules/components/layout": [
+        "libs/modules/src/lib/muiComponents/layout/index.tsx"
+      ],
+      "@crema/modules/components/navigation": [
+        "libs/modules/src/lib/muiComponents/navigation/index.tsx"
+      ],
+      "@crema/modules/components/surfaces": [
+        "libs/modules/src/lib/muiComponents/surfaces/index.tsx"
+      ],
+      "@crema/modules/components/utils": [
+        "libs/modules/src/lib/muiComponents/utils/index.tsx"
+      ],
+      "@crema/modules/dashboards/Academy": [
+        "libs/modules/src/lib/dashboards/Academy/index.tsx"
+      ],
+      "@crema/modules/dashboards/Analytics": [
+        "libs/modules/src/lib/dashboards/Analytics/index.tsx"
+      ],
+      "@crema/modules/dashboards/CRM": [
+        "libs/modules/src/lib/dashboards/CRM/index.tsx"
+      ],
+      "@crema/modules/dashboards/CommonComponents": [
+        "libs/modules/src/lib/dashboards/CommonComponents/index.tsx"
+      ],
+      "@crema/modules/dashboards/Crypto": [
+        "libs/modules/src/lib/dashboards/Crypto/index.tsx"
+      ],
+      "@crema/modules/dashboards/ECommerce": [
+        "libs/modules/src/lib/dashboards/ECommerce/index.tsx"
+      ],
+      "@crema/modules/dashboards/HealthCare": [
+        "libs/modules/src/lib/dashboards/HealthCare/index.tsx"
+      ],
+      "@crema/modules/dashboards/Metrics": [
+        "libs/modules/src/lib/dashboards/Metrics/index.tsx"
+      ],
+      "@crema/modules/dashboards/Widgets": [
+        "libs/modules/src/lib/dashboards/Widgets/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Admin": [
+        "libs/modules/src/lib/ecommerce/Admin/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Carts": [
+        "libs/modules/src/lib/ecommerce/Carts/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Checkout": [
+        "libs/modules/src/lib/ecommerce/Checkout/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Confirmation": [
+        "libs/modules/src/lib/ecommerce/Confirmation/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Customers": [
+        "libs/modules/src/lib/ecommerce/Customers/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Invoice1": [
+        "libs/modules/src/lib/ecommerce/Invoice1/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Invoice2": [
+        "libs/modules/src/lib/ecommerce/Invoice2/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Invoice3": [
+        "libs/modules/src/lib/ecommerce/Invoice3/index.tsx"
+      ],
+      "@crema/modules/ecommerce/OrderSummary": [
+        "libs/modules/src/lib/ecommerce/OrderSummary/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Orders": [
+        "libs/modules/src/lib/ecommerce/Orders/index.tsx"
+      ],
+      "@crema/modules/ecommerce/ProductDetail": [
+        "libs/modules/src/lib/ecommerce/ProductDetail/index.tsx"
+      ],
+      "@crema/modules/ecommerce/Products": [
+        "libs/modules/src/lib/ecommerce/Products/index.tsx"
+      ],
+      "@crema/modules/extraPages/AboutUs": [
+        "libs/modules/src/lib/extraPages/AboutUs/index.tsx"
+      ],
+      "@crema/modules/extraPages/Blog": [
+        "libs/modules/src/lib/extraPages/Blog/index.tsx"
+      ],
+      "@crema/modules/extraPages/ContactUs": [
+        "libs/modules/src/lib/extraPages/ContactUs/index.tsx"
+      ],
+      "@crema/modules/extraPages/FAQ": [
+        "libs/modules/src/lib/extraPages/FAQ/index.tsx"
+      ],
+      "@crema/modules/extraPages/KnowledgeBase": [
+        "libs/modules/src/lib/extraPages/KnowledgeBase/index.tsx"
+      ],
+      "@crema/modules/extraPages/Portfolio": [
+        "libs/modules/src/lib/extraPages/Portfolio/index.tsx"
+      ],
+      "@crema/modules/extraPages/Pricing": [
+        "libs/modules/src/lib/extraPages/Pricing/index.tsx"
+      ],
+      "@crema/modules/invoice": ["libs/modules/src/lib/invoice/index.tsx"],
+      "@crema/modules/thirdParty": [
+        "libs/modules/src/lib/thirdParty/index.tsx"
+      ],
+      "@crema/modules/thirdParty/reactDropzone/components/PreviewThumb": [
+        "libs/modules/src/lib/thirdParty/reactDropzone/components/PreviewThumb/index.tsx"
+      ],
+      "@crema/modules/thirdParty/reactDropzone/components/UploadModern": [
+        "libs/modules/src/lib/thirdParty/reactDropzone/components/UploadModern/index.tsx"
+      ],
+      "@crema/modules/types/*": ["libs/modules/src/types/*"],
+      "@crema/modules/userList/Flat": [
+        "libs/modules/src/lib/userList/Flat/index.tsx"
+      ],
+      "@crema/modules/userList/Modern": [
+        "libs/modules/src/lib/userList/Modern/index.tsx"
+      ],
+      "@crema/modules/userList/Standard": [
+        "libs/modules/src/lib/userList/Standard/index.tsx"
+      ],
+      "@crema/modules/userPages": ["libs/modules/src/lib/userPages/index.tsx"],
+      "@crema/redux": ["libs/redux/src/index.ts"],
+      "@crema/redux-toolkit": ["libs/redux-toolkit/src/index.ts"],
+      "@crema/redux/actions": ["libs/redux/src/actions/index.ts"],
+      "@crema/redux/reducers": ["libs/redux/src/reducers/index.ts"],
+      "@crema/redux/store": ["libs/redux/src/store/index.ts"],
+      "@crema/services/auth": ["libs/services/auth/src/index.ts"],
+      "@crema/services/auth/AWSAuthProvider": [
+        "libs/services/auth/src/aws-cognito/AWSAuthProvider.tsx"
+      ],
+      "@crema/services/auth/Auth0Provider": [
+        "libs/services/auth/src/auth0/Auth0Provider.tsx"
+      ],
+      "@crema/services/auth/FirebaseAuthProvider": [
+        "libs/services/auth/src/firebase/FirebaseAuthProvider.tsx"
+      ],
+      "@crema/services/auth/JWT": ["libs/services/auth/src/jwt-auth/index.tsx"],
+      "@crema/services/auth/JWTAuthProvider": [
+        "libs/services/auth/src/jwt-auth/JWTAuthProvider.tsx"
+      ],
+      "@crema/services/axios": ["libs/services/axios/src/index.ts"],
+      "@crema/services/localization": [
+        "libs/services/localization/src/index.ts"
+      ],
+      "@crema/svg-icons": ["libs/svg-icons/src/index.ts"],
+      "@crema/types/AppContext": ["libs/types/src/AppContext.tsx"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
